@@ -1,0 +1,26 @@
+{
+    "name": "CUDA 11.7.1",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": "..",
+      "args": {
+        "VARIANT": "11.7.1-cudnn8-runtime-ubuntu20.04"
+      }
+    },
+    "workspaceFolder": "/workspace",
+    "runArgs": [
+      "--gpus=all"
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.shell.linux": "/bin/bash"
+        },
+        "extensions": [
+            "ms-python.python",
+            "charliermarsh.ruff"
+        ]
+      }
+    }
+  }
+  
