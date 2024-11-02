@@ -18,6 +18,7 @@
         },
         "extensions": [
             "ms-python.python",
+            "ms-azuretools.vscode-docker",
             "charliermarsh.ruff"
         ]
       }
