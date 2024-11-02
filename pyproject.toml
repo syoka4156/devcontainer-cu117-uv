@@ -1,10 +1,11 @@
 [project]
-name = "devcontainer-cuda-uv-pytorch"
+name = "devcontainer-cuda-uv"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "ruff>=0.7.2",
     "torch==1.13.1+cu117",
     "torchvision==0.14.1+cu117",
 ]
@@ -14,3 +15,6 @@ extra-index-url = ["https://download.pytorch.org/whl/cu117"]
 dev-dependencies = [
     "ipykernel>=6.29.5",
 ]
+
+[tool.ruff]
+extend-include = ["*.ipynb"]

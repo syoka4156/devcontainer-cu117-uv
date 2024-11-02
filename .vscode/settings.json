@@ -3,6 +3,11 @@
     "editor.formatOnPaste": false,
     "editor.formatOnType": false,
     "editor.formatOnSaveMode": "file",
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": true,
+        "notebook.source.organizeImports": true
+    },
     "[python]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
