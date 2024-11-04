@@ -12,5 +12,3 @@ RUN apt-get update && apt-get install -y \
 RUN curl -LsSf https://astral.sh/uv/0.4.6/install.sh | sh 
 
 WORKDIR /workspace
-
-COPY . .
